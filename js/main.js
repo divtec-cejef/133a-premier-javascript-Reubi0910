@@ -7,6 +7,14 @@
 
 "use strict";
 
-let msg = "Hello World!";
+// Récupérer tous les paragraphes du document
 
-console.log(msg);
+let tabPara = document.querySelectorAll("p");
+
+// Récupérer le bouton ajouter
+
+let button = document.querySelector("button.ajouter");
+
+// Affiche le contenu des variables dans la console
+
+console.log(tabPara,button);
