@@ -24,3 +24,14 @@ btAjouter.addEventListener("click", () => {
     ulArticles.innerHTML += "<li>" + txtArticle.value + "</li>";
     txtArticle.value = "";
 });
+
+
+let age = prompt("Quel est ton âge ?");
+
+age = parseInt(age);
+// alert("Tu as " + age + " ans");
+if(isNaN(age)) {
+    alert(`Entre un nombre !`);
+} else {
+    alert(`Tu ${age + 10} ans`);
+}
